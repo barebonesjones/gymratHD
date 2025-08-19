@@ -1,0 +1,46 @@
+# gymratHD v1.0 - Requirements
+# The Ultimate Mike Mentzer Training & Nutrition Tracker
+# Created by: github.com/barebonesjones
+
+# CORE DEPENDENCIES (Required for gymratHD to work)
+customtkinter>=5.0.0
+pillow>=8.0.0
+pandas>=1.0.0
+matplotlib>=3.0.0
+numpy>=1.20.0
+
+# OPTIONAL DEPENDENCIES (For advanced features)
+# python-docx>=0.8.0
+# reportlab>=3.0.0
+# openpyxl>=3.0.0
+
+# INSTALLATION INSTRUCTIONS:
+# 
+# EASY WAY:
+#   Run run_gymratHD.bat
+# 
+# MANUAL WAY:
+#   pip install customtkinter pillow pandas matplotlib numpy
+#
+# IF ERRORS OCCUR:
+#   pip install --user customtkinter pillow pandas matplotlib numpy
+#
+# SYSTEM REQUIREMENTS:
+# - Python 3.7+ (3.11+ recommended)
+# - Windows 10+, macOS 10.14+, or Linux
+# - 512MB RAM minimum
+# - Internet for initial download only
+
+# WHAT EACH PACKAGE DOES:
+# - customtkinter: Beautiful modern GUI interface
+# - pillow: Logo creation and image processing  
+# - pandas: Data analysis for progress tracking
+# - matplotlib: Charts and progress visualization
+# - numpy: Mathematical calculations for nutrition
+
+# NO BLOAT - NO UNNECESSARY PACKAGES
+# Every dependency has a purpose for gymratHD functionality
+
+# LICENSE: MIT Open Source
+# Created by: github.com/barebonesjones
+# "Recovery is when growth occurs." - Mike Mentzer

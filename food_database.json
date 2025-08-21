@@ -3,189 +3,1015 @@
   "version": "1.0",
   "app": "gymratHD",
   "developer": "github.com/barebonesjones",
-  "sources": ["USDA FoodData Central"],
-  
+  "sources": [
+    "USDA FoodData Central"
+  ],
   "High-Protein Foods": {
-    "Chicken Breast": {"protein": 0.31, "carbs": 0.0, "fat": 0.036, "calories": 1.65},
-    "Lean Beef (93/7)": {"protein": 0.26, "carbs": 0.0, "fat": 0.07, "calories": 1.44},
-    "Ground Beef (80/20)": {"protein": 0.20, "carbs": 0.0, "fat": 0.20, "calories": 2.54},
-    "Wild Salmon": {"protein": 0.25, "carbs": 0.0, "fat": 0.13, "calories": 2.08},
-    "Tuna (canned in water)": {"protein": 0.30, "carbs": 0.0, "fat": 0.01, "calories": 1.16},
-    "Cod": {"protein": 0.18, "carbs": 0.0, "fat": 0.007, "calories": 0.82},
-    "Tilapia": {"protein": 0.20, "carbs": 0.0, "fat": 0.017, "calories": 0.96},
-    "Shrimp": {"protein": 0.24, "carbs": 0.0, "fat": 0.006, "calories": 0.99},
-    "Turkey Breast": {"protein": 0.29, "carbs": 0.0, "fat": 0.07, "calories": 1.89},
-    "Ground Turkey (93/7)": {"protein": 0.22, "carbs": 0.0, "fat": 0.08, "calories": 1.48},
-    "Pork Tenderloin": {"protein": 0.26, "carbs": 0.0, "fat": 0.036, "calories": 1.43},
-    "Lean Ham": {"protein": 0.16, "carbs": 0.015, "fat": 0.035, "calories": 1.05},
-    "Eggs (whole)": {"protein": 0.13, "carbs": 0.011, "fat": 0.11, "calories": 1.55},
-    "Egg Whites": {"protein": 0.109, "carbs": 0.007, "fat": 0.002, "calories": 0.52},
-    "Greek Yogurt (plain)": {"protein": 0.17, "carbs": 0.095, "fat": 0.05, "calories": 1.3},
-    "Cottage Cheese (2%)": {"protein": 0.11, "carbs": 0.032, "fat": 0.042, "calories": 0.98},
-    "Cottage Cheese (fat-free)": {"protein": 0.12, "carbs": 0.044, "fat": 0.002, "calories": 0.72},
-    "Ricotta Cheese": {"protein": 0.11, "carbs": 0.038, "fat": 0.10, "calories": 1.74},
-    "String Cheese": {"protein": 0.25, "carbs": 0.012, "fat": 0.20, "calories": 3.0},
-    "Whey Protein Powder": {"protein": 0.80, "carbs": 0.05, "fat": 0.02, "calories": 3.5},
-    "Casein Protein Powder": {"protein": 0.76, "carbs": 0.08, "fat": 0.015, "calories": 3.4},
-    "Tofu (firm)": {"protein": 0.08, "carbs": 0.019, "fat": 0.048, "calories": 0.76},
-    "Tempeh": {"protein": 0.19, "carbs": 0.092, "fat": 0.11, "calories": 1.90},
-    "Lentils (cooked)": {"protein": 0.09, "carbs": 0.20, "fat": 0.004, "calories": 1.16},
-    "Black Beans (cooked)": {"protein": 0.089, "carbs": 0.23, "fat": 0.005, "calories": 1.32},
-    "Chickpeas (cooked)": {"protein": 0.082, "carbs": 0.27, "fat": 0.026, "calories": 1.64},
-    "Kidney Beans (cooked)": {"protein": 0.084, "carbs": 0.225, "fat": 0.005, "calories": 1.27},
-    "Pinto Beans (cooked)": {"protein": 0.092, "carbs": 0.220, "fat": 0.007, "calories": 1.43},
-    "Edamame": {"protein": 0.11, "carbs": 0.086, "fat": 0.051, "calories": 1.21},
-    "Lean Venison": {"protein": 0.30, "carbs": 0.0, "fat": 0.019, "calories": 1.34},
-    "Bison": {"protein": 0.28, "carbs": 0.0, "fat": 0.024, "calories": 1.46},
-    "Lamb (lean)": {"protein": 0.25, "carbs": 0.0, "fat": 0.091, "calories": 2.06}
+    "Chicken Breast": {
+      "protein": 0.31,
+      "carbs": 0.0,
+      "fat": 0.036,
+      "calories": 1.65
+    },
+    "Lean Beef (93/7)": {
+      "protein": 0.26,
+      "carbs": 0.0,
+      "fat": 0.07,
+      "calories": 1.44
+    },
+    "Ground Beef (80/20)": {
+      "protein": 0.2,
+      "carbs": 0.0,
+      "fat": 0.2,
+      "calories": 2.54
+    },
+    "Wild Salmon": {
+      "protein": 0.25,
+      "carbs": 0.0,
+      "fat": 0.13,
+      "calories": 2.08
+    },
+    "Tuna (canned in water)": {
+      "protein": 0.3,
+      "carbs": 0.0,
+      "fat": 0.01,
+      "calories": 1.16
+    },
+    "Cod": {
+      "protein": 0.18,
+      "carbs": 0.0,
+      "fat": 0.007,
+      "calories": 0.82
+    },
+    "Tilapia": {
+      "protein": 0.2,
+      "carbs": 0.0,
+      "fat": 0.017,
+      "calories": 0.96
+    },
+    "Shrimp": {
+      "protein": 0.24,
+      "carbs": 0.0,
+      "fat": 0.006,
+      "calories": 0.99
+    },
+    "Turkey Breast": {
+      "protein": 0.29,
+      "carbs": 0.0,
+      "fat": 0.07,
+      "calories": 1.89
+    },
+    "Ground Turkey (93/7)": {
+      "protein": 0.22,
+      "carbs": 0.0,
+      "fat": 0.08,
+      "calories": 1.48
+    },
+    "Pork Tenderloin": {
+      "protein": 0.26,
+      "carbs": 0.0,
+      "fat": 0.036,
+      "calories": 1.43
+    },
+    "Lean Ham": {
+      "protein": 0.16,
+      "carbs": 0.015,
+      "fat": 0.035,
+      "calories": 1.05
+    },
+    "Eggs (whole)": {
+      "protein": 0.13,
+      "carbs": 0.011,
+      "fat": 0.11,
+      "calories": 1.55
+    },
+    "Egg Whites": {
+      "protein": 0.109,
+      "carbs": 0.007,
+      "fat": 0.002,
+      "calories": 0.52
+    },
+    "Greek Yogurt (plain)": {
+      "protein": 0.17,
+      "carbs": 0.095,
+      "fat": 0.05,
+      "calories": 1.3
+    },
+    "Cottage Cheese (2%)": {
+      "protein": 0.11,
+      "carbs": 0.032,
+      "fat": 0.042,
+      "calories": 0.98
+    },
+    "Cottage Cheese (fat-free)": {
+      "protein": 0.12,
+      "carbs": 0.044,
+      "fat": 0.002,
+      "calories": 0.72
+    },
+    "Ricotta Cheese": {
+      "protein": 0.11,
+      "carbs": 0.038,
+      "fat": 0.1,
+      "calories": 1.74
+    },
+    "String Cheese": {
+      "protein": 0.25,
+      "carbs": 0.012,
+      "fat": 0.2,
+      "calories": 3.0
+    },
+    "Whey Protein Powder": {
+      "protein": 0.8,
+      "carbs": 0.05,
+      "fat": 0.02,
+      "calories": 3.5
+    },
+    "Casein Protein Powder": {
+      "protein": 0.76,
+      "carbs": 0.08,
+      "fat": 0.015,
+      "calories": 3.4
+    },
+    "Tofu (firm)": {
+      "protein": 0.08,
+      "carbs": 0.019,
+      "fat": 0.048,
+      "calories": 0.76
+    },
+    "Tempeh": {
+      "protein": 0.19,
+      "carbs": 0.092,
+      "fat": 0.11,
+      "calories": 1.9
+    },
+    "Lentils (cooked)": {
+      "protein": 0.09,
+      "carbs": 0.2,
+      "fat": 0.004,
+      "calories": 1.16
+    },
+    "Black Beans (cooked)": {
+      "protein": 0.089,
+      "carbs": 0.23,
+      "fat": 0.005,
+      "calories": 1.32
+    },
+    "Chickpeas (cooked)": {
+      "protein": 0.082,
+      "carbs": 0.27,
+      "fat": 0.026,
+      "calories": 1.64
+    },
+    "Kidney Beans (cooked)": {
+      "protein": 0.084,
+      "carbs": 0.225,
+      "fat": 0.005,
+      "calories": 1.27
+    },
+    "Pinto Beans (cooked)": {
+      "protein": 0.092,
+      "carbs": 0.22,
+      "fat": 0.007,
+      "calories": 1.43
+    },
+    "Edamame": {
+      "protein": 0.11,
+      "carbs": 0.086,
+      "fat": 0.051,
+      "calories": 1.21
+    },
+    "Lean Venison": {
+      "protein": 0.3,
+      "carbs": 0.0,
+      "fat": 0.019,
+      "calories": 1.34
+    },
+    "Bison": {
+      "protein": 0.28,
+      "carbs": 0.0,
+      "fat": 0.024,
+      "calories": 1.46
+    },
+    "Lamb (lean)": {
+      "protein": 0.25,
+      "carbs": 0.0,
+      "fat": 0.091,
+      "calories": 2.06
+    }
   },
-  
   "Cereal & Grains": {
-    "Steel Cut Oats": {"protein": 0.17, "carbs": 0.66, "fat": 0.07, "calories": 3.8},
-    "Rolled Oats": {"protein": 0.13, "carbs": 0.68, "fat": 0.065, "calories": 3.89},
-    "Instant Oatmeal": {"protein": 0.11, "carbs": 0.70, "fat": 0.06, "calories": 3.67},
-    "Brown Rice (cooked)": {"protein": 0.025, "carbs": 0.23, "fat": 0.02, "calories": 1.1},
-    "White Rice (cooked)": {"protein": 0.028, "carbs": 0.28, "fat": 0.003, "calories": 1.3},
-    "Wild Rice (cooked)": {"protein": 0.040, "carbs": 0.21, "fat": 0.003, "calories": 1.01},
-    "Basmati Rice (cooked)": {"protein": 0.029, "carbs": 0.25, "fat": 0.004, "calories": 1.21},
-    "Jasmine Rice (cooked)": {"protein": 0.027, "carbs": 0.26, "fat": 0.003, "calories": 1.29},
-    "Quinoa (cooked)": {"protein": 0.044, "carbs": 0.22, "fat": 0.018, "calories": 1.2},
-    "Barley (cooked)": {"protein": 0.023, "carbs": 0.22, "fat": 0.004, "calories": 1.23},
-    "Bulgur (cooked)": {"protein": 0.034, "carbs": 0.19, "fat": 0.002, "calories": 0.83},
-    "Millet (cooked)": {"protein": 0.035, "carbs": 0.23, "fat": 0.012, "calories": 1.19},
-    "Buckwheat (cooked)": {"protein": 0.034, "carbs": 0.20, "fat": 0.006, "calories": 0.92},
-    "Sweet Potato": {"protein": 0.02, "carbs": 0.2, "fat": 0.001, "calories": 0.86},
-    "White Potato": {"protein": 0.02, "carbs": 0.17, "fat": 0.001, "calories": 0.77},
-    "Red Potato": {"protein": 0.021, "carbs": 0.158, "fat": 0.001, "calories": 0.71},
-    "Russet Potato": {"protein": 0.022, "carbs": 0.163, "fat": 0.001, "calories": 0.79},
-    "Whole Wheat Bread": {"protein": 0.13, "carbs": 0.41, "fat": 0.04, "calories": 2.47},
-    "White Bread": {"protein": 0.09, "carbs": 0.49, "fat": 0.032, "calories": 2.65},
-    "Sourdough Bread": {"protein": 0.086, "carbs": 0.47, "fat": 0.024, "calories": 2.5},
-    "Ezekiel Bread": {"protein": 0.08, "carbs": 0.36, "fat": 0.011, "calories": 1.6},
-    "Whole Wheat Pasta": {"protein": 0.13, "carbs": 0.71, "fat": 0.017, "calories": 3.5},
-    "Regular Pasta": {"protein": 0.11, "carbs": 0.74, "fat": 0.009, "calories": 3.71},
-    "Rice Pasta": {"protein": 0.072, "carbs": 0.76, "fat": 0.007, "calories": 3.64},
-    "Corn Tortillas": {"protein": 0.059, "carbs": 0.46, "fat": 0.031, "calories": 2.18},
-    "Flour Tortillas": {"protein": 0.08, "carbs": 0.49, "fat": 0.08, "calories": 3.04}
+    "Steel Cut Oats": {
+      "protein": 0.17,
+      "carbs": 0.66,
+      "fat": 0.07,
+      "calories": 3.8
+    },
+    "Rolled Oats": {
+      "protein": 0.13,
+      "carbs": 0.68,
+      "fat": 0.065,
+      "calories": 3.89
+    },
+    "Instant Oatmeal": {
+      "protein": 0.11,
+      "carbs": 0.7,
+      "fat": 0.06,
+      "calories": 3.67
+    },
+    "Brown Rice (cooked)": {
+      "protein": 0.025,
+      "carbs": 0.23,
+      "fat": 0.02,
+      "calories": 1.1
+    },
+    "White Rice (cooked)": {
+      "protein": 0.028,
+      "carbs": 0.28,
+      "fat": 0.003,
+      "calories": 1.3
+    },
+    "Wild Rice (cooked)": {
+      "protein": 0.04,
+      "carbs": 0.21,
+      "fat": 0.003,
+      "calories": 1.01
+    },
+    "Basmati Rice (cooked)": {
+      "protein": 0.029,
+      "carbs": 0.25,
+      "fat": 0.004,
+      "calories": 1.21
+    },
+    "Jasmine Rice (cooked)": {
+      "protein": 0.027,
+      "carbs": 0.26,
+      "fat": 0.003,
+      "calories": 1.29
+    },
+    "Quinoa (cooked)": {
+      "protein": 0.044,
+      "carbs": 0.22,
+      "fat": 0.018,
+      "calories": 1.2
+    },
+    "Barley (cooked)": {
+      "protein": 0.023,
+      "carbs": 0.22,
+      "fat": 0.004,
+      "calories": 1.23
+    },
+    "Bulgur (cooked)": {
+      "protein": 0.034,
+      "carbs": 0.19,
+      "fat": 0.002,
+      "calories": 0.83
+    },
+    "Millet (cooked)": {
+      "protein": 0.035,
+      "carbs": 0.23,
+      "fat": 0.012,
+      "calories": 1.19
+    },
+    "Buckwheat (cooked)": {
+      "protein": 0.034,
+      "carbs": 0.2,
+      "fat": 0.006,
+      "calories": 0.92
+    },
+    "Sweet Potato": {
+      "protein": 0.02,
+      "carbs": 0.2,
+      "fat": 0.001,
+      "calories": 0.86
+    },
+    "White Potato": {
+      "protein": 0.02,
+      "carbs": 0.17,
+      "fat": 0.001,
+      "calories": 0.77
+    },
+    "Red Potato": {
+      "protein": 0.021,
+      "carbs": 0.158,
+      "fat": 0.001,
+      "calories": 0.71
+    },
+    "Russet Potato": {
+      "protein": 0.022,
+      "carbs": 0.163,
+      "fat": 0.001,
+      "calories": 0.79
+    },
+    "Whole Wheat Bread": {
+      "protein": 0.13,
+      "carbs": 0.41,
+      "fat": 0.04,
+      "calories": 2.47
+    },
+    "White Bread": {
+      "protein": 0.09,
+      "carbs": 0.49,
+      "fat": 0.032,
+      "calories": 2.65
+    },
+    "Sourdough Bread": {
+      "protein": 0.086,
+      "carbs": 0.47,
+      "fat": 0.024,
+      "calories": 2.5
+    },
+    "Ezekiel Bread": {
+      "protein": 0.08,
+      "carbs": 0.36,
+      "fat": 0.011,
+      "calories": 1.6
+    },
+    "Whole Wheat Pasta": {
+      "protein": 0.13,
+      "carbs": 0.71,
+      "fat": 0.017,
+      "calories": 3.5
+    },
+    "Regular Pasta": {
+      "protein": 0.11,
+      "carbs": 0.74,
+      "fat": 0.009,
+      "calories": 3.71
+    },
+    "Rice Pasta": {
+      "protein": 0.072,
+      "carbs": 0.76,
+      "fat": 0.007,
+      "calories": 3.64
+    },
+    "Corn Tortillas": {
+      "protein": 0.059,
+      "carbs": 0.46,
+      "fat": 0.031,
+      "calories": 2.18
+    },
+    "Flour Tortillas": {
+      "protein": 0.08,
+      "carbs": 0.49,
+      "fat": 0.08,
+      "calories": 3.04
+    }
   },
-  
   "Fruits & Vegetables": {
-    "Apple": {"protein": 0.003, "carbs": 0.138, "fat": 0.002, "calories": 0.52},
-    "Banana": {"protein": 0.011, "carbs": 0.229, "fat": 0.003, "calories": 0.89},
-    "Orange": {"protein": 0.009, "carbs": 0.118, "fat": 0.001, "calories": 0.47},
-    "Grapes": {"protein": 0.006, "carbs": 0.162, "fat": 0.002, "calories": 0.62},
-    "Strawberries": {"protein": 0.007, "carbs": 0.077, "fat": 0.003, "calories": 0.32},
-    "Blueberries": {"protein": 0.007, "carbs": 0.144, "fat": 0.003, "calories": 0.57},
-    "Raspberries": {"protein": 0.012, "carbs": 0.119, "fat": 0.007, "calories": 0.52},
-    "Blackberries": {"protein": 0.014, "carbs": 0.096, "fat": 0.005, "calories": 0.43},
-    "Pineapple": {"protein": 0.005, "carbs": 0.131, "fat": 0.001, "calories": 0.5},
-    "Mango": {"protein": 0.008, "carbs": 0.150, "fat": 0.004, "calories": 0.6},
-    "Papaya": {"protein": 0.005, "carbs": 0.109, "fat": 0.003, "calories": 0.43},
-    "Watermelon": {"protein": 0.006, "carbs": 0.076, "fat": 0.002, "calories": 0.3},
-    "Cantaloupe": {"protein": 0.008, "carbs": 0.082, "fat": 0.002, "calories": 0.34},
-    "Honeydew": {"protein": 0.005, "carbs": 0.091, "fat": 0.001, "calories": 0.36},
-    "Peach": {"protein": 0.009, "carbs": 0.096, "fat": 0.003, "calories": 0.39},
-    "Pear": {"protein": 0.004, "carbs": 0.154, "fat": 0.001, "calories": 0.57},
-    "Plum": {"protein": 0.007, "carbs": 0.113, "fat": 0.003, "calories": 0.46},
-    "Cherry": {"protein": 0.01, "carbs": 0.128, "fat": 0.002, "calories": 0.5},
-    "Kiwi": {"protein": 0.011, "carbs": 0.146, "fat": 0.005, "calories": 0.61},
-    "Grapefruit": {"protein": 0.008, "carbs": 0.082, "fat": 0.001, "calories": 0.33},
-    "Avocado": {"protein": 0.02, "carbs": 0.085, "fat": 0.147, "calories": 1.6},
-    "Spinach": {"protein": 0.029, "carbs": 0.036, "fat": 0.004, "calories": 0.23},
-    "Kale": {"protein": 0.043, "carbs": 0.087, "fat": 0.007, "calories": 0.49},
-    "Arugula": {"protein": 0.026, "carbs": 0.037, "fat": 0.007, "calories": 0.25},
-    "Romaine Lettuce": {"protein": 0.015, "carbs": 0.033, "fat": 0.003, "calories": 0.17},
-    "Iceberg Lettuce": {"protein": 0.009, "carbs": 0.030, "fat": 0.001, "calories": 0.14},
-    "Mixed Greens": {"protein": 0.022, "carbs": 0.035, "fat": 0.005, "calories": 0.22},
-    "Broccoli": {"protein": 0.028, "carbs": 0.069, "fat": 0.004, "calories": 0.34},
-    "Cauliflower": {"protein": 0.019, "carbs": 0.049, "fat": 0.003, "calories": 0.25},
-    "Brussels Sprouts": {"protein": 0.034, "carbs": 0.089, "fat": 0.003, "calories": 0.43},
-    "Cabbage": {"protein": 0.012, "carbs": 0.058, "fat": 0.001, "calories": 0.25},
-    "Carrots": {"protein": 0.009, "carbs": 0.097, "fat": 0.002, "calories": 0.41},
-    "Celery": {"protein": 0.007, "carbs": 0.030, "fat": 0.002, "calories": 0.16},
-    "Cucumber": {"protein": 0.007, "carbs": 0.036, "fat": 0.001, "calories": 0.16},
-    "Bell Peppers": {"protein": 0.01, "carbs": 0.07, "fat": 0.003, "calories": 0.31},
-    "Tomatoes": {"protein": 0.009, "carbs": 0.039, "fat": 0.002, "calories": 0.18},
-    "Cherry Tomatoes": {"protein": 0.011, "carbs": 0.038, "fat": 0.002, "calories": 0.18},
-    "Zucchini": {"protein": 0.012, "carbs": 0.032, "fat": 0.003, "calories": 0.17},
-    "Yellow Squash": {"protein": 0.012, "carbs": 0.041, "fat": 0.002, "calories": 0.2},
-    "Asparagus": {"protein": 0.022, "carbs": 0.039, "fat": 0.001, "calories": 0.2},
-    "Green Beans": {"protein": 0.018, "carbs": 0.070, "fat": 0.002, "calories": 0.31},
-    "Peas": {"protein": 0.054, "carbs": 0.144, "fat": 0.004, "calories": 0.81},
-    "Corn": {"protein": 0.032, "carbs": 0.190, "fat": 0.012, "calories": 0.96},
-    "Mushrooms": {"protein": 0.031, "carbs": 0.032, "fat": 0.003, "calories": 0.22},
-    "Onions": {"protein": 0.011, "carbs": 0.093, "fat": 0.001, "calories": 0.4},
-    "Garlic": {"protein": 0.064, "carbs": 0.331, "fat": 0.005, "calories": 1.49}
+    "Apple": {
+      "protein": 0.003,
+      "carbs": 0.138,
+      "fat": 0.002,
+      "calories": 0.52
+    },
+    "Banana": {
+      "protein": 0.011,
+      "carbs": 0.229,
+      "fat": 0.003,
+      "calories": 0.89
+    },
+    "Orange": {
+      "protein": 0.009,
+      "carbs": 0.118,
+      "fat": 0.001,
+      "calories": 0.47
+    },
+    "Grapes": {
+      "protein": 0.006,
+      "carbs": 0.162,
+      "fat": 0.002,
+      "calories": 0.62
+    },
+    "Strawberries": {
+      "protein": 0.007,
+      "carbs": 0.077,
+      "fat": 0.003,
+      "calories": 0.32
+    },
+    "Blueberries": {
+      "protein": 0.007,
+      "carbs": 0.144,
+      "fat": 0.003,
+      "calories": 0.57
+    },
+    "Raspberries": {
+      "protein": 0.012,
+      "carbs": 0.119,
+      "fat": 0.007,
+      "calories": 0.52
+    },
+    "Blackberries": {
+      "protein": 0.014,
+      "carbs": 0.096,
+      "fat": 0.005,
+      "calories": 0.43
+    },
+    "Pineapple": {
+      "protein": 0.005,
+      "carbs": 0.131,
+      "fat": 0.001,
+      "calories": 0.5
+    },
+    "Mango": {
+      "protein": 0.008,
+      "carbs": 0.15,
+      "fat": 0.004,
+      "calories": 0.6
+    },
+    "Papaya": {
+      "protein": 0.005,
+      "carbs": 0.109,
+      "fat": 0.003,
+      "calories": 0.43
+    },
+    "Watermelon": {
+      "protein": 0.006,
+      "carbs": 0.076,
+      "fat": 0.002,
+      "calories": 0.3
+    },
+    "Cantaloupe": {
+      "protein": 0.008,
+      "carbs": 0.082,
+      "fat": 0.002,
+      "calories": 0.34
+    },
+    "Honeydew": {
+      "protein": 0.005,
+      "carbs": 0.091,
+      "fat": 0.001,
+      "calories": 0.36
+    },
+    "Peach": {
+      "protein": 0.009,
+      "carbs": 0.096,
+      "fat": 0.003,
+      "calories": 0.39
+    },
+    "Pear": {
+      "protein": 0.004,
+      "carbs": 0.154,
+      "fat": 0.001,
+      "calories": 0.57
+    },
+    "Plum": {
+      "protein": 0.007,
+      "carbs": 0.113,
+      "fat": 0.003,
+      "calories": 0.46
+    },
+    "Cherry": {
+      "protein": 0.01,
+      "carbs": 0.128,
+      "fat": 0.002,
+      "calories": 0.5
+    },
+    "Kiwi": {
+      "protein": 0.011,
+      "carbs": 0.146,
+      "fat": 0.005,
+      "calories": 0.61
+    },
+    "Grapefruit": {
+      "protein": 0.008,
+      "carbs": 0.082,
+      "fat": 0.001,
+      "calories": 0.33
+    },
+    "Avocado": {
+      "protein": 0.02,
+      "carbs": 0.085,
+      "fat": 0.147,
+      "calories": 1.6
+    },
+    "Spinach": {
+      "protein": 0.029,
+      "carbs": 0.036,
+      "fat": 0.004,
+      "calories": 0.23
+    },
+    "Kale": {
+      "protein": 0.043,
+      "carbs": 0.087,
+      "fat": 0.007,
+      "calories": 0.49
+    },
+    "Arugula": {
+      "protein": 0.026,
+      "carbs": 0.037,
+      "fat": 0.007,
+      "calories": 0.25
+    },
+    "Romaine Lettuce": {
+      "protein": 0.015,
+      "carbs": 0.033,
+      "fat": 0.003,
+      "calories": 0.17
+    },
+    "Iceberg Lettuce": {
+      "protein": 0.009,
+      "carbs": 0.03,
+      "fat": 0.001,
+      "calories": 0.14
+    },
+    "Mixed Greens": {
+      "protein": 0.022,
+      "carbs": 0.035,
+      "fat": 0.005,
+      "calories": 0.22
+    },
+    "Broccoli": {
+      "protein": 0.028,
+      "carbs": 0.069,
+      "fat": 0.004,
+      "calories": 0.34
+    },
+    "Cauliflower": {
+      "protein": 0.019,
+      "carbs": 0.049,
+      "fat": 0.003,
+      "calories": 0.25
+    },
+    "Brussels Sprouts": {
+      "protein": 0.034,
+      "carbs": 0.089,
+      "fat": 0.003,
+      "calories": 0.43
+    },
+    "Cabbage": {
+      "protein": 0.012,
+      "carbs": 0.058,
+      "fat": 0.001,
+      "calories": 0.25
+    },
+    "Carrots": {
+      "protein": 0.009,
+      "carbs": 0.097,
+      "fat": 0.002,
+      "calories": 0.41
+    },
+    "Celery": {
+      "protein": 0.007,
+      "carbs": 0.03,
+      "fat": 0.002,
+      "calories": 0.16
+    },
+    "Cucumber": {
+      "protein": 0.007,
+      "carbs": 0.036,
+      "fat": 0.001,
+      "calories": 0.16
+    },
+    "Bell Peppers": {
+      "protein": 0.01,
+      "carbs": 0.07,
+      "fat": 0.003,
+      "calories": 0.31
+    },
+    "Tomatoes": {
+      "protein": 0.009,
+      "carbs": 0.039,
+      "fat": 0.002,
+      "calories": 0.18
+    },
+    "Cherry Tomatoes": {
+      "protein": 0.011,
+      "carbs": 0.038,
+      "fat": 0.002,
+      "calories": 0.18
+    },
+    "Zucchini": {
+      "protein": 0.012,
+      "carbs": 0.032,
+      "fat": 0.003,
+      "calories": 0.17
+    },
+    "Yellow Squash": {
+      "protein": 0.012,
+      "carbs": 0.041,
+      "fat": 0.002,
+      "calories": 0.2
+    },
+    "Asparagus": {
+      "protein": 0.022,
+      "carbs": 0.039,
+      "fat": 0.001,
+      "calories": 0.2
+    },
+    "Green Beans": {
+      "protein": 0.018,
+      "carbs": 0.07,
+      "fat": 0.002,
+      "calories": 0.31
+    },
+    "Peas": {
+      "protein": 0.054,
+      "carbs": 0.144,
+      "fat": 0.004,
+      "calories": 0.81
+    },
+    "Corn": {
+      "protein": 0.032,
+      "carbs": 0.19,
+      "fat": 0.012,
+      "calories": 0.96
+    },
+    "Mushrooms": {
+      "protein": 0.031,
+      "carbs": 0.032,
+      "fat": 0.003,
+      "calories": 0.22
+    },
+    "Onions": {
+      "protein": 0.011,
+      "carbs": 0.093,
+      "fat": 0.001,
+      "calories": 0.4
+    },
+    "Garlic": {
+      "protein": 0.064,
+      "carbs": 0.331,
+      "fat": 0.005,
+      "calories": 1.49
+    }
   },
-  
   "Milk & Dairy": {
-    "Whole Milk": {"protein": 0.033, "carbs": 0.05, "fat": 0.034, "calories": 0.64},
-    "2% Milk": {"protein": 0.033, "carbs": 0.05, "fat": 0.02, "calories": 0.5},
-    "1% Milk": {"protein": 0.034, "carbs": 0.05, "fat": 0.01, "calories": 0.42},
-    "Skim Milk": {"protein": 0.034, "carbs": 0.05, "fat": 0.002, "calories": 0.35},
-    "Chocolate Milk": {"protein": 0.032, "carbs": 0.102, "fat": 0.025, "calories": 0.83},
-    "Almond Milk": {"protein": 0.006, "carbs": 0.016, "fat": 0.011, "calories": 0.17},
-    "Oat Milk": {"protein": 0.01, "carbs": 0.066, "fat": 0.015, "calories": 0.47},
-    "Soy Milk": {"protein": 0.028, "carbs": 0.041, "fat": 0.016, "calories": 0.54},
-    "Coconut Milk": {"protein": 0.051, "carbs": 0.061, "fat": 0.230, "calories": 2.30},
-    "Plain Yogurt": {"protein": 0.036, "carbs": 0.047, "fat": 0.032, "calories": 0.59},
-    "Greek Yogurt (fat-free)": {"protein": 0.173, "carbs": 0.095, "fat": 0.0, "calories": 0.86},
-    "Vanilla Yogurt": {"protein": 0.028, "carbs": 0.134, "fat": 0.027, "calories": 0.85},
-    "Kefir": {"protein": 0.034, "carbs": 0.048, "fat": 0.01, "calories": 0.41},
-    "Cheddar Cheese": {"protein": 0.25, "carbs": 0.013, "fat": 0.33, "calories": 4.03},
-    "Mozzarella": {"protein": 0.22, "carbs": 0.024, "fat": 0.17, "calories": 2.54},
-    "Swiss Cheese": {"protein": 0.27, "carbs": 0.015, "fat": 0.28, "calories": 3.80},
-    "American Cheese": {"protein": 0.187, "carbs": 0.019, "fat": 0.244, "calories": 3.13},
-    "Parmesan Cheese": {"protein": 0.359, "carbs": 0.036, "fat": 0.253, "calories": 4.31},
-    "Feta Cheese": {"protein": 0.140, "carbs": 0.041, "fat": 0.213, "calories": 2.65},
-    "Goat Cheese": {"protein": 0.218, "carbs": 0.025, "fat": 0.299, "calories": 3.64},
-    "Cream Cheese": {"protein": 0.055, "carbs": 0.040, "fat": 0.342, "calories": 3.42},
-    "Butter": {"protein": 0.009, "carbs": 0.006, "fat": 0.811, "calories": 7.17},
-    "Heavy Cream": {"protein": 0.024, "carbs": 0.028, "fat": 0.371, "calories": 3.45},
-    "Sour Cream": {"protein": 0.024, "carbs": 0.045, "fat": 0.193, "calories": 2.14}
+    "Whole Milk": {
+      "protein": 0.033,
+      "carbs": 0.05,
+      "fat": 0.034,
+      "calories": 0.64
+    },
+    "2% Milk": {
+      "protein": 0.033,
+      "carbs": 0.05,
+      "fat": 0.02,
+      "calories": 0.5
+    },
+    "1% Milk": {
+      "protein": 0.034,
+      "carbs": 0.05,
+      "fat": 0.01,
+      "calories": 0.42
+    },
+    "Skim Milk": {
+      "protein": 0.034,
+      "carbs": 0.05,
+      "fat": 0.002,
+      "calories": 0.35
+    },
+    "Chocolate Milk": {
+      "protein": 0.032,
+      "carbs": 0.102,
+      "fat": 0.025,
+      "calories": 0.83
+    },
+    "Almond Milk": {
+      "protein": 0.006,
+      "carbs": 0.016,
+      "fat": 0.011,
+      "calories": 0.17
+    },
+    "Oat Milk": {
+      "protein": 0.01,
+      "carbs": 0.066,
+      "fat": 0.015,
+      "calories": 0.47
+    },
+    "Soy Milk": {
+      "protein": 0.028,
+      "carbs": 0.041,
+      "fat": 0.016,
+      "calories": 0.54
+    },
+    "Coconut Milk": {
+      "protein": 0.051,
+      "carbs": 0.061,
+      "fat": 0.23,
+      "calories": 2.3
+    },
+    "Plain Yogurt": {
+      "protein": 0.036,
+      "carbs": 0.047,
+      "fat": 0.032,
+      "calories": 0.59
+    },
+    "Greek Yogurt (fat-free)": {
+      "protein": 0.173,
+      "carbs": 0.095,
+      "fat": 0.0,
+      "calories": 0.86
+    },
+    "Vanilla Yogurt": {
+      "protein": 0.028,
+      "carbs": 0.134,
+      "fat": 0.027,
+      "calories": 0.85
+    },
+    "Kefir": {
+      "protein": 0.034,
+      "carbs": 0.048,
+      "fat": 0.01,
+      "calories": 0.41
+    },
+    "Cheddar Cheese": {
+      "protein": 0.25,
+      "carbs": 0.013,
+      "fat": 0.33,
+      "calories": 4.03
+    },
+    "Mozzarella": {
+      "protein": 0.22,
+      "carbs": 0.024,
+      "fat": 0.17,
+      "calories": 2.54
+    },
+    "Swiss Cheese": {
+      "protein": 0.27,
+      "carbs": 0.015,
+      "fat": 0.28,
+      "calories": 3.8
+    },
+    "American Cheese": {
+      "protein": 0.187,
+      "carbs": 0.019,
+      "fat": 0.244,
+      "calories": 3.13
+    },
+    "Parmesan Cheese": {
+      "protein": 0.359,
+      "carbs": 0.036,
+      "fat": 0.253,
+      "calories": 4.31
+    },
+    "Feta Cheese": {
+      "protein": 0.14,
+      "carbs": 0.041,
+      "fat": 0.213,
+      "calories": 2.65
+    },
+    "Goat Cheese": {
+      "protein": 0.218,
+      "carbs": 0.025,
+      "fat": 0.299,
+      "calories": 3.64
+    },
+    "Cream Cheese": {
+      "protein": 0.055,
+      "carbs": 0.04,
+      "fat": 0.342,
+      "calories": 3.42
+    },
+    "Butter": {
+      "protein": 0.009,
+      "carbs": 0.006,
+      "fat": 0.811,
+      "calories": 7.17
+    },
+    "Heavy Cream": {
+      "protein": 0.024,
+      "carbs": 0.028,
+      "fat": 0.371,
+      "calories": 3.45
+    },
+    "Sour Cream": {
+      "protein": 0.024,
+      "carbs": 0.045,
+      "fat": 0.193,
+      "calories": 2.14
+    }
   },
-  
   "Healthy Fats": {
-    "Almonds": {"protein": 0.21, "carbs": 0.22, "fat": 0.50, "calories": 5.79},
-    "Walnuts": {"protein": 0.15, "carbs": 0.14, "fat": 0.65, "calories": 6.54},
-    "Cashews": {"protein": 0.18, "carbs": 0.30, "fat": 0.44, "calories": 5.53},
-    "Pistachios": {"protein": 0.20, "carbs": 0.28, "fat": 0.45, "calories": 5.60},
-    "Pecans": {"protein": 0.09, "carbs": 0.14, "fat": 0.72, "calories": 6.91},
-    "Brazil Nuts": {"protein": 0.14, "carbs": 0.12, "fat": 0.67, "calories": 6.56},
-    "Hazelnuts": {"protein": 0.15, "carbs": 0.17, "fat": 0.61, "calories": 6.28},
-    "Macadamia Nuts": {"protein": 0.08, "carbs": 0.14, "fat": 0.76, "calories": 7.18},
-    "Pine Nuts": {"protein": 0.14, "carbs": 0.13, "fat": 0.68, "calories": 6.73},
-    "Peanuts": {"protein": 0.26, "carbs": 0.16, "fat": 0.49, "calories": 5.67},
-    "Sunflower Seeds": {"protein": 0.21, "carbs": 0.20, "fat": 0.52, "calories": 5.84},
-    "Pumpkin Seeds": {"protein": 0.30, "carbs": 0.11, "fat": 0.49, "calories": 5.59},
-    "Chia Seeds": {"protein": 0.17, "carbs": 0.42, "fat": 0.31, "calories": 4.86},
-    "Flaxseeds": {"protein": 0.18, "carbs": 0.29, "fat": 0.42, "calories": 5.34},
-    "Hemp Seeds": {"protein": 0.31, "carbs": 0.046, "fat": 0.49, "calories": 5.53},
-    "Sesame Seeds": {"protein": 0.18, "carbs": 0.23, "fat": 0.50, "calories": 5.73},
-    "Tahini": {"protein": 0.17, "carbs": 0.21, "fat": 0.54, "calories": 5.95},
-    "Almond Butter": {"protein": 0.21, "carbs": 0.19, "fat": 0.56, "calories": 6.14},
-    "Peanut Butter": {"protein": 0.25, "carbs": 0.20, "fat": 0.50, "calories": 5.88},
-    "Cashew Butter": {"protein": 0.18, "carbs": 0.27, "fat": 0.49, "calories": 5.87},
-    "Sunflower Butter": {"protein": 0.20, "carbs": 0.18, "fat": 0.53, "calories": 6.20},
-    "Olive Oil": {"protein": 0.0, "carbs": 0.0, "fat": 1.0, "calories": 8.84},
-    "Coconut Oil": {"protein": 0.0, "carbs": 0.0, "fat": 1.0, "calories": 8.62},
-    "Avocado Oil": {"protein": 0.0, "carbs": 0.0, "fat": 1.0, "calories": 8.84},
-    "MCT Oil": {"protein": 0.0, "carbs": 0.0, "fat": 1.0, "calories": 8.3}
+    "Almonds": {
+      "protein": 0.21,
+      "carbs": 0.22,
+      "fat": 0.5,
+      "calories": 5.79
+    },
+    "Walnuts": {
+      "protein": 0.15,
+      "carbs": 0.14,
+      "fat": 0.65,
+      "calories": 6.54
+    },
+    "Cashews": {
+      "protein": 0.18,
+      "carbs": 0.3,
+      "fat": 0.44,
+      "calories": 5.53
+    },
+    "Pistachios": {
+      "protein": 0.2,
+      "carbs": 0.28,
+      "fat": 0.45,
+      "calories": 5.6
+    },
+    "Pecans": {
+      "protein": 0.09,
+      "carbs": 0.14,
+      "fat": 0.72,
+      "calories": 6.91
+    },
+    "Brazil Nuts": {
+      "protein": 0.14,
+      "carbs": 0.12,
+      "fat": 0.67,
+      "calories": 6.56
+    },
+    "Hazelnuts": {
+      "protein": 0.15,
+      "carbs": 0.17,
+      "fat": 0.61,
+      "calories": 6.28
+    },
+    "Macadamia Nuts": {
+      "protein": 0.08,
+      "carbs": 0.14,
+      "fat": 0.76,
+      "calories": 7.18
+    },
+    "Pine Nuts": {
+      "protein": 0.14,
+      "carbs": 0.13,
+      "fat": 0.68,
+      "calories": 6.73
+    },
+    "Peanuts": {
+      "protein": 0.26,
+      "carbs": 0.16,
+      "fat": 0.49,
+      "calories": 5.67
+    },
+    "Sunflower Seeds": {
+      "protein": 0.21,
+      "carbs": 0.2,
+      "fat": 0.52,
+      "calories": 5.84
+    },
+    "Pumpkin Seeds": {
+      "protein": 0.3,
+      "carbs": 0.11,
+      "fat": 0.49,
+      "calories": 5.59
+    },
+    "Chia Seeds": {
+      "protein": 0.17,
+      "carbs": 0.42,
+      "fat": 0.31,
+      "calories": 4.86
+    },
+    "Flaxseeds": {
+      "protein": 0.18,
+      "carbs": 0.29,
+      "fat": 0.42,
+      "calories": 5.34
+    },
+    "Hemp Seeds": {
+      "protein": 0.31,
+      "carbs": 0.046,
+      "fat": 0.49,
+      "calories": 5.53
+    },
+    "Sesame Seeds": {
+      "protein": 0.18,
+      "carbs": 0.23,
+      "fat": 0.5,
+      "calories": 5.73
+    },
+    "Tahini": {
+      "protein": 0.17,
+      "carbs": 0.21,
+      "fat": 0.54,
+      "calories": 5.95
+    },
+    "Almond Butter": {
+      "protein": 0.21,
+      "carbs": 0.19,
+      "fat": 0.56,
+      "calories": 6.14
+    },
+    "Peanut Butter": {
+      "protein": 0.25,
+      "carbs": 0.2,
+      "fat": 0.5,
+      "calories": 5.88
+    },
+    "Cashew Butter": {
+      "protein": 0.18,
+      "carbs": 0.27,
+      "fat": 0.49,
+      "calories": 5.87
+    },
+    "Sunflower Butter": {
+      "protein": 0.2,
+      "carbs": 0.18,
+      "fat": 0.53,
+      "calories": 6.2
+    },
+    "Olive Oil": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "calories": 8.84
+    },
+    "Coconut Oil": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "calories": 8.62
+    },
+    "Avocado Oil": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "calories": 8.84
+    },
+    "MCT Oil": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "calories": 8.3
+    }
   },
-  
   "Beverages": {
-    "Water": {"protein": 0.0, "carbs": 0.0, "fat": 0.0, "calories": 0.0},
-    "Black Coffee": {"protein": 0.003, "carbs": 0.0, "fat": 0.0, "calories": 0.02},
-    "Green Tea": {"protein": 0.0, "carbs": 0.0, "fat": 0.0, "calories": 0.02},
-    "Black Tea": {"protein": 0.0, "carbs": 0.007, "fat": 0.0, "calories": 0.02},
-    "Herbal Tea": {"protein": 0.0, "carbs": 0.004, "fat": 0.0, "calories": 0.02},
-    "Diet Soda": {"protein": 0.0, "carbs": 0.002, "fat": 0.0, "calories": 0.004},
-    "Regular Soda": {"protein": 0.0, "carbs": 0.108, "fat": 0.0, "calories": 0.41},
-    "Orange Juice": {"protein": 0.007, "carbs": 0.104, "fat": 0.002, "calories": 0.45},
-    "Apple Juice": {"protein": 0.001, "carbs": 0.114, "fat": 0.001, "calories": 0.46},
-    "Grape Juice": {"protein": 0.004, "carbs": 0.159, "fat": 0.001, "calories": 0.60},
-    "Cranberry Juice": {"protein": 0.004, "carbs": 0.123, "fat": 0.001, "calories": 0.46},
-    "Energy Drink": {"protein": 0.0, "carbs": 0.11, "fat": 0.0, "calories": 0.45},
-    "Sports Drink": {"protein": 0.0, "carbs": 0.06, "fat": 0.0, "calories": 0.25}
+    "Water": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "calories": 0.0
+    },
+    "Black Coffee": {
+      "protein": 0.003,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "calories": 0.02
+    },
+    "Green Tea": {
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "calories": 0.02
+    },
+    "Black Tea": {
+      "protein": 0.0,
+      "carbs": 0.007,
+      "fat": 0.0,
+      "calories": 0.02
+    },
+    "Herbal Tea": {
+      "protein": 0.0,
+      "carbs": 0.004,
+      "fat": 0.0,
+      "calories": 0.02
+    },
+    "Diet Soda": {
+      "protein": 0.0,
+      "carbs": 0.002,
+      "fat": 0.0,
+      "calories": 0.004
+    },
+    "Regular Soda": {
+      "protein": 0.0,
+      "carbs": 0.108,
+      "fat": 0.0,
+      "calories": 0.41
+    },
+    "Orange Juice": {
+      "protein": 0.007,
+      "carbs": 0.104,
+      "fat": 0.002,
+      "calories": 0.45
+    },
+    "Apple Juice": {
+      "protein": 0.001,
+      "carbs": 0.114,
+      "fat": 0.001,
+      "calories": 0.46
+    },
+    "Grape Juice": {
+      "protein": 0.004,
+      "carbs": 0.159,
+      "fat": 0.001,
+      "calories": 0.6
+    },
+    "Cranberry Juice": {
+      "protein": 0.004,
+      "carbs": 0.123,
+      "fat": 0.001,
+      "calories": 0.46
+    },
+    "Energy Drink": {
+      "protein": 0.0,
+      "carbs": 0.11,
+      "fat": 0.0,
+      "calories": 0.45
+    },
+    "Sports Drink": {
+      "protein": 0.0,
+      "carbs": 0.06,
+      "fat": 0.0,
+      "calories": 0.25
+    }
   }
 }

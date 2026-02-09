@@ -56,7 +56,7 @@ gymratHD is the **definitive fitness tracker** for natural bodybuilders who want
 - **Professional design** - Clean, intuitive interface
 - **Dark theme** - Easy on the eyes during long sessions
 - **Zero learning curve** - Start using immediately
-- **Ages 4-70 friendly** - Accessible for all users
+- **Ages 4-199 friendly** - Accessible for all users
 
 ---
 
